@@ -15,18 +15,9 @@ Starchive Extractor is a Bash script designed to efficiently download, verify, a
 Ensure you have `bash`, `curl`, `wget`, `pv`, `tar`, `sha256sum`, and `bc` installed on your system. Most of these tools are typically pre-installed on Linux systems.
 If Starchiver detects that any of these dependencies do not exit, it will try to automatically install them.
 
-1. Clone the repository:
-   ```
-   git clone "https://github.com/Proph151Music/Starchive-Extractor"
-   ```
-2. Navigate to the script directory:
-   ```
-   cd "Starchive-Extractor"
-   ```
-3. Make the script executable:
-   ```
-   chmod +x starchiver-ext
-   ```
+```bash
+curl -o starchiver-ext https://raw.githubusercontent.com/Proph151Music/Starchive-Extractor/main/starchiver-ext
+chmod +x starchiver-ext```
 
 ## Usage
 Run the script with optional parameters to specify the data path and network cluster.
