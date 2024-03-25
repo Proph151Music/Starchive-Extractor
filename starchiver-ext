@@ -5,8 +5,8 @@ network_choice=""
 
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        --data-path)
-            path="${2,,}"
+        --data-path|--data_path)
+            path="${2%/,,}"
             shift
             ;;
         --cluster)
