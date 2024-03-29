@@ -44,6 +44,11 @@ Run the script with optional parameters to specify the data path and network clu
 
 If no parameters are provided, the script enters an interactive mode, allowing you to choose options via a user-friendly menu.
 
+Optional switches that can also be used:
+
+- `-d`: Will automatically force the deletion of data snapshots before downloading/extracting Starchive's.
+- `-o`: Will automatically overwrite the data snapshots when extracting Starchive's.
+- 
 ## Requirements
 - Linux Operating System with Bash Shell
 - Internet Connectivity for Downloading Starchive Files
